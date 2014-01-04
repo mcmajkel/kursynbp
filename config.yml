@@ -1,3 +1,0 @@
-urls:
-  main: "http://www.nbp.pl/kursy/xml/"
-  dir: "http://www.nbp.pl/kursy/xml/dir.txt"
