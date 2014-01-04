@@ -1,9 +1,11 @@
-kursynbp - simple currency exchange API
+kursynbp
 ========
-Usage:
------
-get http://[server]/api/[date],[currency_symbol].json
+simple currency exchange API (source: NBP xml files)
+---
+###Usage:
 
-Returns JSON:
+`GET http://[server]/api/[date],[currency_symbol].json`
+
+###Returns JSON:
 -----
 {"code":[return code (0 or error code)],"message":[return message ("OK" or error message)],"exchange":[exchange rate (if found) or nil]}
